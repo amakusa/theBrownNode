@@ -60,7 +60,7 @@ app.get("/:name",function(req,res){
 });
 
 app.get('/', function(request, response) {
-  response.send('Hello World!, i am using express');
+  response.send('Hello World!, Getting hungry');
 });
 
 var port = process.env.C9_PORT || process.env.PORT || 3000;
